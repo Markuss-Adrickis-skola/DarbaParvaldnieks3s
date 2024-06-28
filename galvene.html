@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <title>"Vēl-jādara" saraksts</title>
+    <link rel="icon" href="quiverFavicon.ico" type="image/x-icon">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <h1>Īslaicīgo uzdevumu veidotājs</h1>
+        <form id="new-task-form">
+                <input
+                    type="text"
+                    id="new-task-input"
+                    placeholder="Kas tev ir plānā?" />
+                <input
+                    type="submit" 
+                    id="new-task-submit"
+                    value="Pievienot" />
+        </form>
+    </header>
+
+    <main>
+        <section class="task-list">
+            <h2>Uzdevumi:</h2>
+            <div id="tasks">
+                <!--
+                <div class="task">
+                    
+                    <div class="content">
+                        <input 
+                            type="text"
+                            class="text"
+                            value="My shiny task"
+                            readonly 
+                        />
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
